@@ -5,14 +5,14 @@
 
 '''
 
-if __name__ =='__main__':
+if __name__ == '__main__':
     secret_number = 12
     while True:
         try:
 
             user_response = int(input('Enter a Number :'))
         except:
-            print(f'oops.. Required Integer Type')
+            print('oops.. Required Integer Type')
             continue
         else:
             if user_response == secret_number:
