@@ -7,6 +7,7 @@
      -lst.pop(index) - Removes the specified index
      - clear  - delete all the elements in the list
      - del lst - delete list object from memory
+     - remove(ele) - remove specified element
 
 
 '''
