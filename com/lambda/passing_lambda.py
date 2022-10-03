@@ -4,7 +4,7 @@
 '''
 
 # you are defining the execution. How it wil work
-# what process to executed, we are defining from outside
+# what process to execute, we are defining from outside
 def list_process(lst,process):
     return [process(element) for element in lst ]
 
